@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5418087889:AAFwuUGyhN0jOQPkLKYo308AjgrB80WTmOY"
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "150"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001891060939"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Daddy99:Daddy99@cluster0.czzmfwl.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Daddy99:Daddy999@cluster0.czzmfwl.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5399623240").split()))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/184accb94eee032152a03.jpg")
